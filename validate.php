@@ -10,7 +10,7 @@
 	
 	//creating csrf token
 	$csrf = hash_hmac('sha256',"This is token:login.php",$_SESSION['key']);
-	$_SESSION['csrf']= $csrf; // and storin it in session
+	$_SESSION['csrf']= $csrf; // and storing it in session
 
 	ob_start();
 	
@@ -23,7 +23,7 @@
 		{
 			echo "<script> alert('Login Sucess') </script>";
 			
-			// this is if the user selected the emember me checkbox
+			// this is if the user selected the remember me checkbox
 			if(isset($_POST['remember']))
 			{
 					setcookie('email',$_POST['email'],time()+60*60*7); // set a cookie for email
