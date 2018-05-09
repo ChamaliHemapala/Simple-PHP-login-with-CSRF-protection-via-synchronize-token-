@@ -19,7 +19,7 @@
 </head>
 <body> 
 
-<!-- Function requesting token from validate.php. You can refer w3school for this !-->
+<!-- Function requesting token from validate.php. You can refer w3school for this. !-->
 <script>
 function loadDOC(method,url,htmlTag)
 {
