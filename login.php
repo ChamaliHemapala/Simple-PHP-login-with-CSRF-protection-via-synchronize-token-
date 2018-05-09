@@ -5,7 +5,7 @@
 	
 	//storing session id
 	$sessionID=session_id();
-	setcookie("session_id",$sessionID,time()+3600,"/","localhost",false,true); // setting cookie with the session id
+	setcookie("session_id",$sessionID,time()+3600,"/","localhost",false,true); // setting cookie for the session id
 	
 	
 ?>
