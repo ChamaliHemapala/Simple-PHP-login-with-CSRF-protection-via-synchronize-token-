@@ -85,6 +85,11 @@ function loadDOC(method,url,htmlTag)
 			
 
 		</script>";
+		echo "<script>
+			document.getElementById('password').value= '$password'
+			
+
+		</script>";
 	}
 	
 ?>
